@@ -1,0 +1,27 @@
+*Info: Called with command line:
+/home/scf-12/ee552/proteus/bin/ClockFree -c -y DEPTH -p /home/scf-12/ee552/proteus/pdk/proteus -S ArbiterMergeTest.qdi.save -v ArbiterMergeTest.qdi_image.v -o ArbiterMergeTest.qdi.hier.v -N ArbiterMergeTest.qdi.flat.sdc -Y ArbiterMergeTest.qdi.flat.directives -I /home/scf-12/ee552/proteus/pdk/proteus/qdi_image_ta.lib -L /home/scf-12/ee552/proteus/pdk/proteus/qdi_vc_ta.lib --use_gates_file /home/scf-12/ee552/proteus/pdk/proteus/qdi.gates -f ArbiterMergeTest.qdi.noclk.flat.v -g ArbiterMergeTest.qdi.flat.v -T ArbiterMergeTest 
+
+*Info: Executed from:
+SunOS aludra.usc.edu 5.10 Generic_147147-26 sun4v sparc SUNW,T5240
+
+*Info: Process started at: Fri May  1 20:43:24 2020
+
+-------------------------------------------------------------------------------
+*Info: Using clustering-algorithm DEPTH
+*Info: Reading parameters from file /home/scf-12/ee552/proteus/pdk/proteus/qdi.setup
+*Info: effort level set to: normal
+*Info: target cycle time = 18
+*Info: align_io = 0
+*Info: allow_buffer_sharing = 0
+*Info: Reading libraries... 
+*Info: Reading Image Lib file /home/scf-12/ee552/proteus/pdk/proteus/qdi_image_ta.lib
+*Info: Reading Physical Lib file /home/scf-12/ee552/proteus/pdk/proteus/qdi_vc_ta.lib
+*Info: Reading Verilog source files.
+*Error: Found bidirectional port "inPort1_e" that does not abide by naming convention.
+Use _in0, _in1 to terminate input ports and _out0, _out1 to terminate output ports.
+*Warning: Cannot read file ArbiterMergeTest.qdi_image.v.
+*Error: Cannot build a verilog parse-tree for ArbiterMergeTest.qdi_image.v.
+*Info: Reading available gates file /home/scf-12/ee552/proteus/pdk/proteus/qdi.gates.
+*Info: Done reading libraries... 
+*Info: Reading libraries took 4 seconds to complete!
+*ERROR: Top-Level module not defined.

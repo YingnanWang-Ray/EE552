@@ -1,0 +1,70 @@
+Checking out license 'RTL_Compiler_Physical'... (0 seconds elapsed)
+License RTL_Compiler_Physical checkout failed
+Checking out license 'RTL_Compiler_Ultra'... (0 seconds elapsed)
+License RTL_Compiler_Ultra checkout failed
+Checking out license 'RTL_Compiler_Verification'... (0 seconds elapsed)
+License RTL_Compiler_Verification checkout failed
+Checking out license 'FE_GPS'... (0 seconds elapsed)
+License FE_GPS checkout failed
+Checking out license 'SOC_Encounter_GPS'... (1 seconds elapsed)
+License SOC_Encounter_GPS checkout failed
+Checking out license 'First_Encounter_GXL'... (0 seconds elapsed)
+License First_Encounter_GXL checkout failed
+Checking out license 'SOC_Encounter_GXL'... (0 seconds elapsed)
+License SOC_Encounter_GXL checkout failed
+Checking out license 'Encounter_Design_Planner_XL'... (0 seconds elapsed)
+License Encounter_Design_Planner_XL checkout failed
+Checking out license 'Encounter_Digital_Impl_Sys_XL'... (0 seconds elapsed)
+License Encounter_Digital_Impl_Sys_XL checkout failed
+Checking out license 'RTL_Compiler_Physical'... (0 seconds elapsed)
+License RTL_Compiler_Physical checkout failed
+Checking out license 'RTL_Compiler_L'... (0 seconds elapsed)
+License RTL_Compiler_L checkout failed
+Checking out license 'Virtuoso_Digital_Implem'... (0 seconds elapsed)
+
+                       Cadence Encounter(R) RTL Compiler
+               Version v08.10-s108_1 (32-bit), built Jul 29 2008
+
+
+Sourcing './rc_tempR.tcl' (Tue Apr 28 17:04:06 PDT 2020)...
+  Setting attribute of root '/': 'library' = /home/scf-12/ee552/proteus/pdk/proteus/qdi_image_ta.lib
+  Setting attribute of root '/': 'hdl_language' = sv
+  Setting attribute of root '/': 'hdl_search_path' = 
+  Cannot remove 'cadence' from attribute 'input_pragma_keyword'.
+  Setting attribute of root '/': 'input_pragma_keyword' = cadence synopsys pragma get2chip g2c
+  Setting attribute of root '/': 'synthesis_off_command' = translate_off synthesis_off
+  Setting attribute of root '/': 'synthesis_on_command' = translate_on synthesis_on
+  Setting attribute of root '/': 'hdl_track_filename_row_col' = true
+  Setting attribute of root '/': 'hdl_trim_target_index' = false
+  Setting attribute of root '/': 'write_vlog_bit_blast_mapped_ports' = true
+  Setting attribute of root '/': 'bit_blasted_port_style' = %s[%d]
+	integer receiveCounter =0;
+	                         |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '/home/scf-12/ee552/proteus/pdk/proteus/e1ofN_M.sv' on line 27, column 27.
+        : The following constructs will be ignored:
+    - initial block
+    - final block
+    - program block
+    - property block
+    - sequence block
+    - covergroup
+    - gate drive strength
+    - system task enable
+    - reg declaration with initial value
+    - specify block.
+	logic e = 0;
+	           |
+Warning : Ignoring unsynthesizable construct. [VLOGPT-37]
+        : Initial value assignment to reg in file '/home/scf-12/ee552/proteus/pdk/proteus/rtl_interface.sv' on line 7, column 13.
+Warning : Missing a setup timing arc for next-state library pin. [LBR-34]
+        : Library pin 'LATCH_X2/L' has no setup arcs.
+        : Pins used in next-state functions must have setup timing arcs.  Otherwise, the library cell will be treated as a timing-model.
+  Library has 1010 usable logic and 8 usable sequential lib-cells.
+Error   : Could not find an HDL design. [CDFG-210] [elaborate]
+        : The design is 'ArbiterMerge'.
+        : Ensure that the design exists or the correct file was loaded.
+Failed on elaborate ArbiterMerge
+Encountered problems processing file: rc_tempR.tcl
+Sourcing './rc_exit.tcl' (Tue Apr 28 17:04:27 PDT 2020)...
+Abnormal exit.
